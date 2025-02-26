@@ -30,13 +30,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Transparent Navbar When Scrolling */
-.navbar-transparent {
-  background: rgba(20, 30, 48, 0.671);  /* Semi-transparent */
-  backdrop-filter: blur(1px); /* Blurred Effect */
-  box-shadow: none;
-}
-
 /* Navbar Name */
 .navbar-name {
   font-size: 22px;

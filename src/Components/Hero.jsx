@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./HeroSection.css";
+import "./Hero.css";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <div className="hero-container">
       <motion.div 
@@ -58,4 +58,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;
