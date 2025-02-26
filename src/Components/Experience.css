@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.work-experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: #1a1a1a;
+  color: white;
+}
+
+.work-experience-content {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.work-experience-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.work-experience-title span {
+  color: #ff4d4d;
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.experience-header {
+  margin-bottom: 20px;
+}
+
+.experience-role {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.experience-company {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.experience-duration {
+  font-size: 16px;
+  color: #ff4d4d;
+  font-weight: 600;
+}
+
+.experience-details {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.experience-responsibilities {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-responsibilities li {
+  margin-bottom: 10px;
+}
+
+.experience-responsibilities span {
+  color: #ff4d4d;
+  font-weight: 600;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .work-experience-title {
+    font-size: 28px;
+  }
+
+  .experience-card {
+    padding: 20px;
+  }
+
+  .experience-role {
+    font-size: 20px;
+  }
+
+  .experience-company {
+    font-size: 16px;
+  }
+
+  .experience-duration {
+    font-size: 14px;
+  }
+
+  .experience-details {
+    font-size: 14px;
+  }
+}
