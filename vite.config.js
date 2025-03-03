@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Change this from '/portfolio/' to './'
+  base: '/portfolio', // Ensure the base path matches your deployment
 });
-
